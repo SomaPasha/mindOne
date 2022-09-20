@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Hello World!"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/main_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Нажми меня"
+        android:textSize="30sp"
+        android:gravity="center"
+       />
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/input_edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="#AE0A0A"
+        android:hint="Введите текс маленькимим буквами"
+    />
+
+</LinearLayout>
